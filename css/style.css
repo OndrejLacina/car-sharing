@@ -3,9 +3,10 @@
 }
 
 :root {
-    --primary-color:
-    --primary-font: 
-
-    --container-width: 1088px
-    --btn-padding: 22px 55px
+    --primary-color: #FF0000;
+    --primary-font: "Nunito Sans";
+    --secondary-font: "Open Sans";
+    --container-width: 1088px;
+    --btn-padding: 22px 55px;
 }
+
