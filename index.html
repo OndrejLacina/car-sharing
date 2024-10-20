@@ -16,11 +16,32 @@
 
     <link rel="stylesheet" href="css/style.css">
 </head>
-
-
+<!---->
 
 <body>
+    <section>
+        <header>
+            <div>
+                <img src="./images/Icon.svg" alt="Logo-ikona">
+                <p>Car <span>sharing</span></p>
+            </div>
 
+            <nav>
+                <ol>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ol>
+            </nav>
+
+
+        </header>
+        <div class="intro">
+
+        </div>
+
+    </section>
 
 
 </body>
@@ -28,14 +49,19 @@
 <!--
 section.top
     ^ background-image
+    ^ height: calc(100vh - 27.5px)
+    ^ display: flex
+    ^ flex-direction: column
+    ^ position: relative
     header
-        ^ background rgba
+        ^ background rgba(0, 0, 0, 0.5)
         div.container
             ^ flex
             div.logo
             nav.global-navig
-    div.into
-        ^ background rgba
+    div.intro
+        ^ background rgba rgba(0, 0, 0, 0.3)
+        ^ flex-grow: 1;
         div.container
             ^ centered flex
             div.intro-content
@@ -45,6 +71,20 @@ section.top
                     ^ flex
                     a.btn.btn-primary
                     a.btn.btn-secondary
+    a.next href="#blog"
+        ^ position absolute
+        img arrow
+
+section.blog
+    div.container
+        h2#blog
+            ::before
+            ....
+            ::after
+        div.row
+            article
+            article
+            article
 -->
 
 

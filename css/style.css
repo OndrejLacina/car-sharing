@@ -4,9 +4,28 @@
 
 :root {
     --primary-color: #FF0000;
-    --primary-font: "Nunito Sans";
-    --secondary-font: "Open Sans";
+    --primary-font: "Nunito Sans", sans-serif;
+    --secondary-font: "Open Sans", sans-serif;
     --container-width: 1088px;
     --btn-padding: 22px 55px;
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+}
+
+section {
+    background-image: url(../images/Image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 807px;
+}
+
+/* tady musím dát boxík s shadow */
+header {
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.5)
+    
 }
 
